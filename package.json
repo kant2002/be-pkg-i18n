@@ -1,5 +1,5 @@
 {
-    "name": "@diia-inhouse/i18n",
+    "name": "@kant2002-diia-inhouse/i18n",
     "version": "2.0.2",
     "description": "Internationalization package",
     "repository": "https://github.com/diia-open-source/be-pkg-i18n.git",
@@ -25,11 +25,11 @@
         "test:unit": "npm run test --selectProjects unit --"
     },
     "commitlint": {
-        "extends": "@diia-inhouse/configs/dist/commitlint"
+        "extends": "@kant2002-diia-inhouse/configs/dist/commitlint"
     },
-    "prettier": "@diia-inhouse/eslint-config/prettier",
+    "prettier": "@kant2002-diia-inhouse/eslint-config/prettier",
     "eslintConfig": {
-        "extends": "@diia-inhouse/eslint-config",
+        "extends": "@kant2002-diia-inhouse/eslint-config",
         "overrides": [
             {
                 "files": [
@@ -48,10 +48,10 @@
         "branches": [
             "main"
         ],
-        "extends": "@diia-inhouse/configs/dist/semantic-release/package"
+        "extends": "@kant2002-diia-inhouse/configs/dist/semantic-release/package"
     },
     "jest": {
-        "preset": "@diia-inhouse/configs/dist/jest"
+        "preset": "@kant2002-diia-inhouse/configs/dist/jest"
     },
     "dependencies": {
         "@types/i18n": "0.13.10",
@@ -60,10 +60,10 @@
     },
     "devDependencies": {
         "@commitlint/cli": "18.4.3",
-        "@diia-inhouse/configs": "^1.27.1",
-        "@diia-inhouse/eslint-config": "^3.5.0",
-        "@diia-inhouse/test": "^5.1.1",
-        "@diia-inhouse/types": "^5.0.1",
+        "@kant2002-diia-inhouse/configs": "^1.27.1",
+        "@kant2002-diia-inhouse/eslint-config": "^3.5.0",
+        "@kant2002-diia-inhouse/test": "^5.1.1",
+        "@kant2002-diia-inhouse/types": "^5.0.1",
         "@types/jest": "29.5.11",
         "@types/node": "20.10.5",
         "eslint": "8.53.0",
@@ -78,7 +78,7 @@
         "typescript": "5.2.2"
     },
     "peerDependencies": {
-        "@diia-inhouse/types": ">=1.0.0"
+        "@kant2002-diia-inhouse/types": ">=1.0.0"
     },
     "engines": {
         "node": ">=18"

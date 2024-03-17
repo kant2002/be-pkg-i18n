@@ -1,8 +1,8 @@
 /* eslint-disable no-underscore-dangle */
 import { AsyncLocalStorage } from 'async_hooks'
 
-import { mockInstance } from '@diia-inhouse/test'
-import { AlsData } from '@diia-inhouse/types'
+import { mockInstance } from '@kant2002-diia-inhouse/test'
+import { AlsData } from '@kant2002-diia-inhouse/types'
 
 // eslint-disable-next-line import/order
 import { I18nMock, i18nStubs } from '../../mocks/i18n'

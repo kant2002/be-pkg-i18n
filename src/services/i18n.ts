@@ -2,7 +2,7 @@ import { AsyncLocalStorage } from 'async_hooks'
 
 import { I18n, Replacements } from 'i18n'
 
-import { AlsData } from '@diia-inhouse/types'
+import { AlsData } from '@kant2002-diia-inhouse/types'
 
 import { I18nKey } from '../interfaces/services/i18n'
 
